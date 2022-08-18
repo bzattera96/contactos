@@ -27,7 +27,7 @@ public class Telefono {
 
     @Override
     public String toString() {
-        return "Telefono: " + indicPais + " " + numTel + ", " + tipoTel + ".";
+        return tipoTel + ": " + indicPais + " " + numTel + ".";
     }
 
     @Override
